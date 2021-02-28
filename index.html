@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="ex.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <ul class="navbar-nav">
+            <li class="nav-item active ">
+                <a class="nav-link signup-btn login-btn" id="right" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle signup-btn login-btn" href="#" data-toggle="dropdown">Login
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item login-btn" href="studentlogin.html">StudentLogin</a>
+                    <a class="dropdown-item login-btn" href="facultylogin.html">Faculty Login</a>
+                </div>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link signup-btn login-btn" href="signup.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link signup-btn login-btn" href="contactus.html">To Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="download1.jpg">
+            </div>
+            <div class="col-sm-3" id="split">
+                <div>
+                    <img src="tel.jpg" id="pic1">
+                </div>
+                <div id="down"><b>Call us:-<br>
+                     +91 83369 42266</b></div>
+            </div>
+            <div class="col-sm-3" id="split1">
+                <div>
+                    <img src="clock1.png" id="pic2">
+                </div>
+                <div id="down"><b>Working Hour:-<br>
+                        Mon to Sat: 9AM to 5PM</b></div>
+            </div>
+        </div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="clg1.jpg" alt="Los Angeles" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="clg2.jpg" alt="Chicago" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="clg3.jpeg" alt="New York" width="1100" height="500">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          
+
+    </div><br>
+    <div class="jumbotron text-center">
+        <h1>My First Bootstrap Page</h1>
+        <p>Resize this responsive page to see the effect!</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Column 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Column 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+            <div class="col-sm-4" id="div1">
+                <h3>Column 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br><br>
+</body>
+
+</html>
